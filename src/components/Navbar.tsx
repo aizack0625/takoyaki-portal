@@ -30,7 +30,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex-shrink-0">
             <div className="flex flex-col sm:flex-row sm:items-center">
-              <span className="text-xl font-bold whitespace-nowrap">たこ焼き食べよか</span>
+              <span className="text-xl font-bold whitespace-nowrap">たこポー</span>
               <span className="text-sm sm:ml-2 whitespace-nowrap">たこ焼き屋ポータルサイト</span>
             </div>
           </Link>
