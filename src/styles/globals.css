@@ -1,0 +1,48 @@
+.text-brown-900 {
+  color: #5C4033;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px) rotate(45deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(45deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(45deg);
+  }
+}
+
+/* 市場をイメージした背景パターン */
+.market-pattern {
+  background-image:
+    linear-gradient(45deg, #228B22 25%, transparent 25%),
+    linear-gradient(-45deg, #fff 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #228B22 75%),
+    linear-gradient(-45deg, transparent 75%, #fff 75%);
+  background-size: 12px 12px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
+
+/* 暖簾風の装飾 */
+.noren-pattern {
+  background: repeating-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.1) 0px,
+    rgba(255, 255, 255, 0.1) 4px,
+    transparent 4px,
+    transparent 8px
+  );
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, transparent 100%);
+}
+
+/* たこ焼きの質感を表現するグラデーション */
+.takoyaki-texture {
+  background: radial-gradient(
+    circle at 60% 60%,
+    rgba(255, 255, 255, 0.7) 50%,
+    rgba(255, 255, 255, 0.6) 60%
+  );
+}
